@@ -1,0 +1,32 @@
+{
+	"definition": { "country": "NG", "category": "upper-basic", "title": "Upper Basic Mathematics (JSS 1–3)" },
+	"release": { "version": "v2.4", "year": "2026", "status": "published" },
+	"alignments": [
+		{ "framework": "Cambridge-IGCSE", "path": "full", "guidelineDoc": "Checkpoint Framework", "guidelineRef": "", "guidelineUrl": "", "status": "approved" },
+		{ "framework": "NERDC", "path": "domesticated", "guidelineDoc": "National Curriculum", "guidelineRef": "2023 p.45", "guidelineUrl": "", "status": "approved" },
+		{ "framework": "WAEC", "path": "revised", "guidelineDoc": "BECE Syllabus", "guidelineRef": "2025", "guidelineUrl": "", "status": "approved" }
+	],
+	"subject": "mathematics",
+	"tree": [
+		{
+			"kind": "module", "title": "Number & Numeration", "objective": "Build number sense across fractions", "order": 1,
+			"children": [
+				{
+					"kind": "unit", "title": "Fractions", "order": 1,
+					"children": [
+						{
+							"kind": "topic", "title": "Equivalent Fractions", "order": 1,
+							"los": [{ "text": "Learner simplifies 8/12 to 2/3 correctly", "bloom": "Apply", "delivery": ["instructional", "practical"] }],
+							"children": [
+								{ "kind": "sub-topic", "title": "Simplifying", "order": 1, "los": [{ "text": "Learner reduces to lowest terms", "bloom": "Apply" }] },
+								{ "kind": "sub-topic", "title": "Ordering", "order": 2, "los": [{ "text": "Learner orders fractions with unlike denominators", "bloom": "Analyze" }] }
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"prereqs": [{ "from": "jss-equivalent-fractions", "to": "p5-fractions" }],
+	"instance": { "session": "2026/2027", "term": "1st", "school": "1School Lagos" }
+}

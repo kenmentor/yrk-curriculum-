@@ -1,0 +1,18 @@
+{
+	"collections": [
+		{ "name": "definitions", "fields": ["country", "category", "title", "owner"] },
+		{ "name": "releases", "fields": ["definition", "version", "year", "status"] },
+		{ "name": "alignments", "fields": ["release", "framework", "path", "guidelineDoc", "guidelineRef", "guidelineUrl", "status"] },
+		{ "name": "subjects", "fields": ["slug", "name", "type", "tracks", "deptHint"] },
+		{ "name": "subject_aliases", "fields": ["alias", "subject"] },
+		{ "name": "nodes", "fields": ["release", "subject", "kind", "parent", "title", "objective", "order"] },
+		{ "name": "los", "fields": ["node", "text", "bloom", "assessmentHint"] },
+		{ "name": "prereqs", "fields": ["fromNode", "toNode"] },
+		{ "name": "teams", "fields": ["release", "person", "phone", "role"] },
+		{ "name": "invites", "fields": ["release", "phone", "e164", "role", "token", "expiresAt", "status"] },
+		{ "name": "instances", "fields": ["release", "session", "term", "school"] },
+		{ "name": "transitions", "fields": ["release", "from", "to", "actor", "comment"] },
+		{ "name": "inspector_reports", "fields": ["instance", "lo", "masteryPct", "note", "inspector"] }
+	],
+	"notes": "PocketBase schema stub for v1 — create via migrations or admin UI. Version format vMAJOR.MINOR enforced app-side (see pure.ts). Prereq cycle guard app-side (wouldCreateCycle)."
+}

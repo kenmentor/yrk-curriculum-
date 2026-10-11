@@ -1,0 +1,54 @@
+/* 1School single truth — dark only. No light pastel. Anti-clutter rule: tokens here, never hardcoded. */
+:root {
+	--sidebar-w: 248px;
+	--sidebar-w-collapsed: 64px;
+	--topbar-h: 56px;
+
+	--bg-app: #282829;
+	--surface: #303032;
+	--surface-muted: #3a3a3c;
+	--border: #4a4a4d;
+	--text: #e5e5e7;
+	--text-strong: #ededee;
+	--text-muted: #a1a1a3;
+
+	--sidebar-bg: #282829;
+	--sidebar-bg-2: #282829;
+	--sidebar-text: #e7e8ea;
+	--sidebar-active-bg: rgba(120, 83, 218, 0.22);
+
+	--brand: #7853da;
+	--brand-soft: #b9a5f0;
+	--accent-ai: #1f9d55;
+
+	--status-complete-fill: rgba(143, 209, 138, 0.16);
+	--status-complete-text: #8fd18a;
+	--status-progress-fill: rgba(245, 226, 122, 0.14);
+	--status-progress-text: #f5e27a;
+	--status-draft-fill: rgba(242, 169, 59, 0.14);
+	--status-draft-text: #f2a93b;
+	--status-error-fill: rgba(228, 87, 78, 0.14);
+	--status-error-text: #f08a84;
+
+	--chart-track: #3a3a3c;
+
+	--background: var(--bg-app);
+	--foreground: var(--text);
+	--card: var(--surface);
+	--card-foreground: var(--text);
+	--primary: var(--brand);
+	--primary-foreground: #ffffff;
+	--secondary: var(--surface-muted);
+	--secondary-foreground: var(--text);
+	--muted: var(--surface-muted);
+	--muted-foreground: var(--text-muted);
+	--accent: var(--surface-muted);
+	--accent-foreground: var(--text);
+	--destructive: #e4574e;
+	--destructive-foreground: #ffffff;
+	--input: var(--border);
+	--ring: var(--brand);
+	--radius: 0.625rem;
+}
+
+.tnum { font-variant-numeric: tabular-nums; }
